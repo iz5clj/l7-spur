@@ -1,0 +1,17 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Spur Variables
+@import "spur/variables01";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+@import "~spur-template/scss/_spur-bundle";
+
+// only for demo. do not import on production site
+@import "spur/demo";
+
+body {
+    font-family: Nunito;
+}
